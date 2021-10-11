@@ -8,6 +8,6 @@ func TestMin(t *testing.T) {
 	min, err := Min(numbers)
 
 	if err != nil || min != 9 {
-		t.Error("Expected 5, got ", min)
+		t.Error("Expected 9, got ", min)
 	}
 }
