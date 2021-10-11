@@ -1,11 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"futs"
-)
-
-// import "meters_to_futs.go"
+import "fmt"
 
 func main() {
 	fmt.Print("Enter a number in meters: ")
@@ -14,5 +9,5 @@ func main() {
 
 	fmt.Scanf("%f", &meters)
 
-	fmt.Printf("Your number in futs is: %f\n", futs.MeterToFuts(meters))
+	fmt.Printf("Your number in futs is: %f\n", MeterToFuts(meters))
 }
